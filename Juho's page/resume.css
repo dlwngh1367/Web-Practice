@@ -1,0 +1,79 @@
+body {
+    background-color: #d0e2c0;
+}
+
+div,
+footer {
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+h2 {
+    color: grey;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    margin-top: 60px;
+}
+
+span {
+    float: right;
+}
+
+section {
+    width: 63%;
+    margin-left: 20%;
+    font-size: 18px;
+    font-family: sans-serif;
+    word-spacing: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: steelblue;
+}
+
+li {
+    display: inline;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+}
+
+#hometown {
+    background-color: #80ebef
+}
+
+#Orderform {
+    background-color: #72d789
+}
+
+ul a {
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 10px 80px;
+
+}
+
+ul a:hover {
+    background-color: lightcoral;
+
+}
+
+ul a:visited {
+    color: rgb(42, 42, 194);
+}
+
+header {
+    width: 100%;
+    background-color: aliceblue;
+    margin-top: 0px;
+    text-align: center;
+}
+
+#activities {
+    font-size: 25px
+}

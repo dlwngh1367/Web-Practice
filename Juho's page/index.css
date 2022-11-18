@@ -1,0 +1,46 @@
+body {
+    background-color: bisque;
+    text-align: center;
+
+}
+
+header {
+    width: 100%;
+    background-color: aliceblue;
+    margin-top: 0px;
+}
+
+p {
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 10px 80px;
+
+}
+
+a:hover {
+    background-color: lightcoral;
+
+}
+
+a:visited {
+    color: rgb(42, 42, 194);
+}
+
+#activities {
+    font-size: 25px
+}

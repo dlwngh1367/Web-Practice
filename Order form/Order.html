@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="<Juho Lee>">
+    <title>Order Form</title>
+    <style>
+        .info {
+            border: 1px solid
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset>
+    <h1 style="color:orange;"> Order Form</h1>
+    <br>
+    <br>
+    <fieldset>
+        <legend>Basic Information</legend>
+        <table>
+            <tr>
+                <td>Name: </td>
+                <td><input type="text" value="Juho" size="30" disabled></td>
+
+            </tr>
+            <tr>
+                <td>Email: </td>
+                <td><input type="text" value="lee00824@algonquinlive.com" size="30"></td>
+            </tr>
+            <tr>
+                <td>Address: </td>
+                <td><textarea rows="5" cols="20"></textarea></td>
+            </tr>
+            <tr>
+                <td>Postcode: </td>
+                <td><input type="text" size="15"></td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <fieldset>
+        <legend>Product Information</legend>
+        <table style="border:1px solid; width: 40%;">
+            <tr>
+                <th class="info">Product</th>
+                <th class="info">Part Number</th>
+                <th class="info">Quantity</th>
+                <th class="info">Unit Price</th>
+                <th class="info" style="width:200px">Subtotal</th>
+            </tr>
+            <tr>
+                <td class="info">Box</td>
+                <td class="info">AC100</td>
+                <td class="info"></td>
+                <td class="info">$5</td>
+                <td class="info"></td>
+            </tr>
+            <tr>
+                <td class="info">Coffee Table</td>
+                <td class="info">AC200</td>
+                <td class="info"></td>
+                <td class="info">$100</td>
+                <td class="info"></td>
+            </tr>
+            <tr>
+                <td class="info">Chair</td>
+                <td class="info">AC300</td>
+                <td class="info"></td>
+                <td class="info">$150</td>
+                <td class="info"></td>
+            </tr>
+            <tr>
+                <td class="info">Desk</td>
+                <td class="info">AC400</td>
+                <td class="info"></td>
+                <td class="info">$120</td>
+                <td class="info"></td>
+            </tr>
+            <tr>
+                <td class="info">Corr</td>
+                <td class="info">AC500</td>
+                <td class="info"></td>
+                <td class="info">$130</td>
+                <td class="info"></td>
+            </tr>
+            <tr>
+                <td class="info" colspan="4" style="text-align:right">Total: </td>
+                <td class="info"></td>
+            </tr>
+        </table>
+    </fieldset>
+    <h3>Credit Card Information</h3>
+    Card Type:
+    <table>
+        <tr>
+            <td>
+                <input type="radio" name="Master" value="Mastercard">Mastercard
+            </td>
+            <td>
+                Card Number: <input type="text"> <br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="radio" name="Visa" value="Visa">Visa
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="Gift" value="Gift Card">Gift Card<br></td>
+            <td>
+                Expiry Date: <input type="date">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h3>Delivery Address: </h3>
+            </td>
+            <td>
+                <textarea rows="6" cols="25"></textarea>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <button>Send Order</button>
+    <button>Clear Form</button>
+</fieldset>
+</body>
+
+</html>

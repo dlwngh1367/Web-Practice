@@ -1,0 +1,101 @@
+/*Juho  Lee*/
+
+body {
+    background-color: #DDD78D;
+    color: #343434;
+    font-family: sans-serif;
+
+}
+
+#topHeader,
+footer {
+    background-color: #60594D;
+    color: #93A29B;
+    border-style: solid;
+    border-color: #343434;
+    border-width: 4px;
+    padding-block: 10px;
+}
+
+#mainheader {
+    font-size: 45pt;
+    white-space: nowrap;
+}
+
+#elements {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 0px;
+    width: 800px;
+
+}
+
+#elements div {
+    background-color: white;
+    border-radius: 15px;
+    width: 220px;
+    height: 20px;
+    flex-shrink: 1;
+    margin: 3px;
+}
+
+
+a {
+    color: #343434;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #8B635C;
+}
+
+#headerNavigator {
+    font-size: 12pt;
+    text-align: center;
+}
+
+main div header {
+    font-size: 16pt;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+ul>li {
+    font-weight: bold;
+}
+
+p,
+li {
+    font-size: 14pt;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+#bodyHeader1,
+#bodyHeader2,
+#bodyHeader3,
+#bodyHeader4 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+blockquote {
+    text-align: center;
+    background-color: #DCBF85;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 10px 10px 19px;
+
+}
+
+
+img {
+    float: right;
+    margin: 10px;
+}
