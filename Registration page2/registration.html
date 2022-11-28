@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weeklykitten.css">
+     <script src="script.js" defer></script>
+    <title>Lab5</title>
+</head>
+<body>
+<div class="container">
+	<div class="header">
+		<h2>Weekly Kitten Pictures Subsribtion</h2>
+	</div>
+	<form id="form" action="registration.html" class="form" method="get" onsubmit="return validate();">
+
+		<div class="form-control">
+			<label for="username">Email</label>
+			<input type="email" placeholder="Email" id="email">
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+        <div class="form-control">
+			<label for="username">Username</label>
+			<input type="text" placeholder="User name" id="username">
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="username">Password</label>
+			<input type="password" placeholder="Password" id="password">
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="username">Re-type Password</label>
+			<input type="password" placeholder="Password" id="password2">
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+        <div class="checkbox">
+            <input type="checkbox" name="newsletter" id="newsletter">
+            <label for="newsletter">I agree to receive Weekly Kitten Pictures newsletters</label>
+        </div>
+
+        <div class="checkbox">
+            <input type="checkbox" name="terms" id="terms">
+            <label for="terms">I agree to the terms and conditions</label>
+        </div>
+		<button type="submit" id="signUp">Sign-Up</button>
+        <button type="reset">Reset</button>
+	</form>
+</div>
+</body>
+</html>
